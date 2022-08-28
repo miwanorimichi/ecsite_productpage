@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+
+
+body{
+  font-size: 0.75rem;
+  color: #333;
+  max-width: 1000px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.site-title {
+  width: 110px;
+  margin: 0 auto 35px auto;
+  line-height: 1px;
+}
+
+.site-title a {
+  display: block;
+}
+
+/* header */
+#header {
+  padding: 46px 0 26px 0;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu,
+nav .login {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+nav .menu li {
+  margin-right: 14px;
+}
+
+nav .login li {
+  margin-left: 14px;
+}
+
+/* item */
+#item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.item-image {
+  width: 45%;
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.item-info {
+  width: 45%;
+  text-align: left;
+}
+
+
+
+.item-info .item-title {
+  font-size: 1rem;
+  font-weight: bold;
+  border-top: 1px solid #c3c3c3;
+  border-bottom: 1px solid #c3c3c3;
+  padding: 18px 0 18px 0;
+  margin-bottom: 20px;
+}
+
+.item-info p {
+  line-height: 1.9;
+}
+
+.item-info p:nth-child(3) {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.order-table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order-table .color {
+  width: 20%;
+}
+
+.order-table .size {
+  width: 20%;
+}
+
+.order-table .quantity {
+  width: 60%;
+}
+
+.order-table td {
+  border-top: 1px solid #c3c3c3;
+}
+
+.order-table th,
+.order-table td {
+  border-right: 1px solid #c3c3c3;
+  padding: 10px;
+}
+
+.order-table th:last-child,
+.order-table td:last-child {
+  border-right: none;
+}
+
+.order-table select {
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  padding: 0 10px;
+}
+
+
+.item-info .cart-btn {
+  width: 100%;
+  padding: 18px 0;
+  color: #FFFFFF;
+  background-color: #4B4B4B;
+  display: block;
+  text-align: center;
+}
+
+.size-table {
+  width: 100%;
+  border-top: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.size-table .size {
+  width: 16%;
+}
+
+.size-table .chest {
+  width: 28%;
+}
+
+.size-table .weist {
+  width: 28%;
+}
+
+.size-table .height {
+  width: 28%;
+}
+
+.size-table th {
+  background-color: #ecebeb;
+}
+
+.size-table th,
+.size-table td {
+  border-bottom: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  padding: 10px
+}
+
+
+/* footer */
+.copyright {
+  text-align: center;
+  font-size: 0.625rem;
+  margin-bottom: 10px;
+}
+
+
+/* ====================
+SP
+====================*/
+@media  screen and (max-width: 896px) {
+  
+/* header */
+#header {
+  padding: 36px 16px 16px 16px;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+nav {
+  overflow-x: scroll;
+}
+
+
+/* item */
+/* item */
+#item {
+  flex-direction: column;
+}
+
+.item-image {
+  width: 100%;
+}
+
+.item-info {
+  width: 100%;
+}
+
+
+
+}
+
+
+
+
+
